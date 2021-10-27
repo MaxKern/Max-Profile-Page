@@ -1,0 +1,139 @@
+@import url('https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+
+body {
+  background-image: url("images/IMG_4829.jpeg");
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #14213d;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+  padding-top: 8px;
+  padding-right: 16px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #14213d;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 400;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fca311;
+  font-size: 56px;
+  line-height: 56px;
+  font-weight: 500;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #14213d;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #14213d;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 400;
+  padding-right: 24px;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: #14213d;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 400;
+  padding-right: 24px;
+}
+
+dl {
+  font-family: 'Montserrat', sans-serif;
+  color: #14213d;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+  padding-top: 16px;
+  padding-right: 24px;
+}
+
+.card-white {
+    background-color: #ffffff;
+    width: 60%;
+    margin: 24px auto;
+    padding: 16px;
+    padding-left: 24px;
+    box-shadow: 2px 2px 16px rgb(0,0,0,0.1);
+    text-align: center;
+    border-radius: 16px;
+}
+
+.card-golf {
+  background-color: #ffffff;
+  width: 60%;
+  margin: 24px auto;
+  padding: 16px;
+  padding-left: 24px;
+  box-shadow: 2px 2px 16px rgb(0,0,0,0.1);
+  text-align: center;
+  border-radius: 16px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 40px;
+  color: #fca311;
+  padding: 8px;
+}
+
+.btn-social {
+  display: inline-block;
+  font-size: 40px;
+  color: #fca311;
+  padding: 8px;
+}
+
+.btn-social:hover {
+  background-color: #14213d;
+  padding: 16px;
+}
+
+.btn-orange {
+    padding: 8px;
+    background: #fca311;
+    color: #14213d;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 4px;
+    display: inline-block;
+    transition: ease 0.8s;
+}
+
+.btn-orange:hover {
+  background-color: #fca311;
+  padding: 16px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 300px;
+  margin-left: auto;
+}
