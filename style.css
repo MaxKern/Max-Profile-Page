@@ -1,26 +1,20 @@
 @import url('https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
 
-
 body {
   background-image: url("images/IMG_4829.jpeg");
   background-position: center;
-  font-family: 'Montserrat', sans-serif;
-  color: #14213d;
-  font-size: 24px;
-  line-height: 32px;
-  font-weight: 300;
-  padding-top: 8px;
-  padding-right: 16px;
 }
 
 h1 {
   font-family: 'Montserrat', sans-serif;
   color: #14213d;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 24px;
+  line-height: 24px;
   font-weight: 400;
   text-align: center;
+  margin-bottom: 0px;
+  padding-top: 16px;
 }
 
 h2 {
@@ -31,6 +25,7 @@ h2 {
   font-weight: 500;
   letter-spacing: 10px;
   text-align: center;
+  margin-top: 0px;
 }
 
 h4 {
@@ -48,7 +43,18 @@ h3 {
   font-size: 32px;
   line-height: 32px;
   font-weight: 400;
-  padding-right: 24px;
+  padding-top: 16px;
+  letter-spacing: 10px;
+}
+
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #14213d;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0px;
 }
 
 h5 {
@@ -57,28 +63,28 @@ h5 {
   font-size: 32px;
   line-height: 32px;
   font-weight: 400;
-  padding-right: 24px;
+  letter-spacing: 10px;
 }
 
-dl {
+p {
   font-family: 'Montserrat', sans-serif;
   color: #14213d;
   font-size: 24px;
   line-height: 32px;
   font-weight: 300;
-  padding-top: 16px;
-  padding-right: 24px;
+  text-align: center;
 }
 
 .card-white {
-    background-color: #ffffff;
-    width: 60%;
-    margin: 24px auto;
-    padding: 16px;
-    padding-left: 24px;
-    box-shadow: 2px 2px 16px rgb(0,0,0,0.1);
-    text-align: center;
-    border-radius: 16px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+  width: 60%;
+  margin: 24px auto;
+  padding: 16px;
+  padding-left: 24px;
+  box-shadow: 2px 2px 16px rgb(0,0,0,0.1);
+  text-align: center;
+  border-radius: 16px;
 }
 
 .card-golf {
@@ -89,6 +95,17 @@ dl {
   padding-left: 24px;
   box-shadow: 2px 2px 16px rgb(0,0,0,0.1);
   text-align: center;
+  border-radius: 16px;
+}
+
+.card-facts {
+  background-color: #ffffff;
+  width: 60%;
+  margin: 24px auto;
+  padding: 16px;
+  padding-left: 24px;
+  text-align: center;
+  box-shadow: 2px 2px 16px rgb(0,0,0,0.1);
   border-radius: 16px;
 }
 
@@ -117,14 +134,14 @@ dl {
 }
 
 .btn-orange {
-    padding: 8px;
-    background: #fca311;
-    color: #14213d;
-    text-decoration: none;
-    border-radius: 4px;
-    margin: 4px;
-    display: inline-block;
-    transition: ease 0.8s;
+  padding: 8px;
+  background: #fca311;
+  color: #14213d;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 4px;
+  display: inline-block;
+  transition: ease 0.8s;
 }
 
 .btn-orange:hover {
